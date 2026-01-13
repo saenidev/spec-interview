@@ -1,0 +1,11 @@
+{
+  "name": "spec-interview",
+  "title": "Spec Interview",
+  "description": "Build comprehensive project specifications through systematic interviewing",
+  "category": "productivity",
+  "tags": ["specifications", "requirements", "planning", "interviews"],
+  "repository": "https://github.com/saenidev/spec-interview",
+  "author": {
+    "name": "saenidev"
+  }
+}
