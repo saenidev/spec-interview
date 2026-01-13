@@ -4,15 +4,18 @@ A Claude Code plugin for building comprehensive project specifications through s
 
 ## Installation
 
+Add the marketplace to Claude Code:
+
 ```bash
-claude mcp add-from-marketplace spec-interview
+claude plugins add https://github.com/saenidev/spec-interview
 ```
 
-Or clone and use locally:
+Or clone and test locally:
 
 ```bash
 git clone https://github.com/saenidev/spec-interview.git
-claude --plugin-dir ./spec-interview
+cd spec-interview
+claude --plugin-dir .
 ```
 
 ## Usage

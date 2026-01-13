@@ -6,6 +6,14 @@ allowed-tools: ["AskUserQuestion", "Write", "Read", "Glob", "Bash"]
 
 # Project Specification Builder
 
+## Argument Validation
+
+If `$ARGUMENTS` is empty, ask the user for a project name before proceeding:
+- Use AskUserQuestion to ask: "What would you like to name this project specification?"
+- Use the provided name as the project name for the rest of the command
+
+## Overview
+
 Build a comprehensive specification for **$ARGUMENTS** by conducting a systematic interview.
 
 ## Interview Process
