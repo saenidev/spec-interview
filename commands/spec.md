@@ -1,7 +1,7 @@
 ---
 description: Build a comprehensive project specification through systematic interviewing
 argument-hint: <project-name>
-allowed-tools: ["AskUserQuestion", "Write", "Read", "Glob", "Bash"]
+allowed-tools: ["AskUserQuestion", "Write", "Read", "Glob", "Bash", "TodoWrite"]
 ---
 
 # Project Specification Builder
@@ -17,6 +17,8 @@ If `$ARGUMENTS` is empty, ask the user for a project name before proceeding:
 Build a comprehensive specification for **$ARGUMENTS** by conducting a systematic interview.
 
 ## Interview Process
+
+Use TodoWrite to track progress through interview phases. Create todos for each phase and mark them complete as you go.
 
 Use the AskUserQuestion tool to gather requirements across these dimensions. Ask 2-4 questions at a time, probing deeper into underlying needs and constraints. Skip questions that don't apply.
 
