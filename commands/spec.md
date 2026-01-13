@@ -1,12 +1,7 @@
 ---
 description: Build a comprehensive project specification through systematic interviewing
 argument-hint: <project-name>
-allowed-tools:
-  - AskUserQuestion
-  - Write
-  - Read
-  - Glob
-  - Bash
+allowed-tools: ["AskUserQuestion", "Write", "Read", "Glob", "Bash"]
 ---
 
 # Project Specification Builder
@@ -71,15 +66,18 @@ Use the AskUserQuestion tool to gather requirements across these dimensions. Ask
 
 ## Output
 
-After the interview is complete, synthesize all responses into a structured specification document saved to `specs/$ARGUMENTS.md` containing:
+After the interview is complete:
 
-1. **Executive Summary** - One paragraph overview
-2. **Problem Statement** - What we're solving and why it matters
-3. **Goals & Non-Goals** - Explicit scope boundaries
-4. **User Personas & Journeys** - Who uses this and how
-5. **Technical Requirements** - Architecture, integrations, constraints
-6. **Tech Stack** - Chosen technologies with rationale
-7. **UI/UX Requirements** - Design and interaction expectations
-8. **Success Metrics** - How we'll measure if this worked
-9. **Risks & Mitigations** - Known concerns and contingencies
-10. **Open Questions** - Items that still need resolution
+1. Create the `specs/` directory if it doesn't exist: `mkdir -p specs`
+2. Synthesize all responses into a structured specification document saved to `specs/$ARGUMENTS.md` containing:
+
+- **Executive Summary** - One paragraph overview
+- **Problem Statement** - What we're solving and why it matters
+- **Goals & Non-Goals** - Explicit scope boundaries
+- **User Personas & Journeys** - Who uses this and how
+- **Technical Requirements** - Architecture, integrations, constraints
+- **Tech Stack** - Chosen technologies with rationale
+- **UI/UX Requirements** - Design and interaction expectations
+- **Success Metrics** - How we'll measure if this worked
+- **Risks & Mitigations** - Known concerns and contingencies
+- **Open Questions** - Items that still need resolution
